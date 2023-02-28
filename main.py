@@ -1,8 +1,10 @@
+# Greyson Rowland (2023)
+
 from pytube import YouTube, Playlist
 import os
 import requests
 
-print("YT Watcher by Greyson Rowland 2023")
+print("YouTube Video Downloader by Greyson Rowland 2023")
 
 def Download(link, path=None):
     youtubeObject = YouTube(link)
